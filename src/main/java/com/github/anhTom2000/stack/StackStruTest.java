@@ -1,4 +1,4 @@
-package com.github.anhTom2000;
+package com.github.anhTom2000.stack;
 
 /**
  * Created on 19:54  23/03/2020
@@ -13,5 +13,11 @@ public class StackStruTest {
         int i = 2;
         int j = 3;
         int k = i+j;
+        try {
+            Thread.sleep(6000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("hello");
     }
 }
