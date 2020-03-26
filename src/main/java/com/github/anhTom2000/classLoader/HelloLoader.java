@@ -11,5 +11,6 @@ public class HelloLoader {
     public static void main(String[] args) {
         System.out.println("感谢类加载器加载我...");
         System.out.println("talk is cheap show me the code");
+
     }
 }
