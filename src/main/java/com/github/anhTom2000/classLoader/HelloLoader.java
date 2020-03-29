@@ -13,4 +13,9 @@ public class HelloLoader {
         System.out.println("talk is cheap show me the code");
 
     }
+
+    interface  $T{
+        public static int  a1 = 10;
+        public static final  int a2 = 10;
+    }
 }
