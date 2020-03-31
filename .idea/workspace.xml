@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eebbd559-5f12-459e-bbb9-314a1808117f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/LoadClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/MyClassLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jvm_jdk-learning.md" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_jdk-learning.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/anhTom2000/classLoader/$$SuperClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/anhTom2000/classLoader/$$SuperClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/anhTom2000/classLoader/$Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/anhTom2000/classLoader/$Class.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/anhTom2000/classLoader/$SuperClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/anhTom2000/classLoader/$SuperClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/anhTom2000/classLoader/LoadClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/anhTom2000/classLoader/LoadClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/anhTom2000/stack/StackStruTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/anhTom2000/stack/StackStruTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmind_file/深入理解JVM.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/xmind_file/深入理解JVM.xmind" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,28 +53,29 @@
     <session id="-1542650978">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ft" value="55" />
           <entry key="java" value="2449" />
-          <entry key="md" value="6354" />
+          <entry key="md" value="10610" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="2449" />
-          <entry key="Markdown" value="6354" />
+          <entry key="Markdown" value="10610" />
           <entry key="VTL" value="55" />
         </counts>
       </usages-collector>
@@ -92,11 +84,13 @@
           <entry key="class" value="1" />
           <entry key="java" value="14" />
           <entry key="md" value="1" />
+          <entry key="png" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
+          <entry key="Image" value="1" />
           <entry key="JAVA" value="14" />
           <entry key="Markdown" value="1" />
         </counts>
@@ -153,8 +147,8 @@
         <entry file="file://$PROJECT_DIR$/jvm_jdk-learning.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="457">
-                <caret line="395" column="18" lean-forward="true" selection-start-line="395" selection-start-column="18" selection-end-line="395" selection-end-column="18" />
+              <first_editor relative-caret-position="597">
+                <caret line="682" column="88" selection-start-line="682" selection-start-column="88" selection-end-line="682" selection-end-column="88" />
               </first_editor>
               <second_editor />
             </state>
@@ -164,8 +158,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/LoadClassTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+            <state relative-caret-position="465">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -173,8 +167,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/MyClassLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1023">
-              <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+            <state relative-caret-position="1271">
+              <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -261,8 +255,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -385,13 +377,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="runtime&#9;PSI&#9;JAVA://java.lang.Runtime&#10;system&#9;PSI&#9;JAVA://java.lang.System" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585573125139" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585578078614" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../javaweb20200327" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -517,12 +511,13 @@
       <workItem from="1585292908576" duration="4569000" />
       <workItem from="1585379887809" duration="1281000" />
       <workItem from="1585460727469" duration="13614000" />
-      <workItem from="1585540906542" duration="7675000" />
+      <workItem from="1585540906542" duration="8498000" />
+      <workItem from="1585642651273" duration="9184000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51036000" />
+    <option name="totallyTimeSpent" value="61043000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -537,7 +532,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14552239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -546,14 +541,14 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.044516828" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.044516828" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32899022" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3257329" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32894737" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22909881" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" visible="true" weight="0.22909881" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.22909881" />
       <window_info anchor="bottom" id="Statistic" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
@@ -608,6 +603,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://F:/jdk/jdk-12.0.2/lib/src.zip!/java.base/java/nio/channels/FileChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="334" column="30" selection-start-line="334" selection-start-column="30" selection-end-line="334" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk/jdk-12.0.2/lib/src.zip!/java.base/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="873" column="29" selection-start-line="873" selection-start-column="29" selection-end-line="873" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -642,6 +651,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/LoadClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/MyClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1271">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -652,42 +678,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/jdk/jdk-12.0.2/lib/src.zip!/java.base/java/nio/channels/FileChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="334" column="30" selection-start-line="334" selection-start-column="30" selection-end-line="334" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/jdk/jdk-12.0.2/lib/src.zip!/java.base/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="873" column="29" selection-start-line="873" selection-start-column="29" selection-end-line="873" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/LoadClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/MyClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1023">
-          <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/1c91169ff735b21daa16d650700d3dcb.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/jvm_jdk-learning.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="457">
-            <caret line="395" column="18" lean-forward="true" selection-start-line="395" selection-start-column="18" selection-end-line="395" selection-end-column="18" />
+          <first_editor relative-caret-position="597">
+            <caret line="682" column="88" selection-start-line="682" selection-start-column="88" selection-end-line="682" selection-end-column="88" />
           </first_editor>
           <second_editor />
         </state>
