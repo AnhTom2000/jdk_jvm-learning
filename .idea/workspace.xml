@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eebbd559-5f12-459e-bbb9-314a1808117f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/CMSGC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/G1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/ParNewGC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/ParallelScavenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/SerialGC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm_jdk-learning.md" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_jdk-learning.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/LoadClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/LoadClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/LoadClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/LoadClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/stack/StackStruTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/stack/StackStruTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/anhTom2000/stack/StackStruTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/anhTom2000/stack/StackStruTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xmind_file/深入理解JVM.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/xmind_file/深入理解JVM.xmind" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -81,13 +70,13 @@
           <entry key="dummy" value="2" />
           <entry key="ft" value="94" />
           <entry key="java" value="3209" />
-          <entry key="md" value="11945" />
+          <entry key="md" value="11955" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="3209" />
-          <entry key="Markdown" value="11945" />
+          <entry key="Markdown" value="11955" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="VTL" value="94" />
         </counts>
@@ -161,7 +150,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="911">
-                <caret line="816" column="22" selection-start-line="816" selection-start-column="22" selection-end-line="816" selection-end-column="22" />
+                <caret line="818" column="33" selection-start-line="818" selection-start-column="33" selection-end-line="818" selection-end-column="33" />
               </first_editor>
               <second_editor />
             </state>
@@ -440,7 +429,7 @@
     <property name="SearchEverywhereHistoryKey" value="runtime&#9;PSI&#9;JAVA://java.lang.Runtime&#10;system&#9;PSI&#9;JAVA://java.lang.System" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585734632317" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585734752546" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../javaweb20200327" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -573,12 +562,12 @@
       <workItem from="1585460727469" duration="13614000" />
       <workItem from="1585540906542" duration="8498000" />
       <workItem from="1585642651273" duration="9886000" />
-      <workItem from="1585724719046" duration="7869000" />
+      <workItem from="1585724719046" duration="8346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69614000" />
+    <option name="totallyTimeSpent" value="70091000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -591,7 +580,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20522387" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -602,13 +590,13 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5005429" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5038002" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32899022" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3257329" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32894737" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.23995657" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" visible="true" weight="0.1194354" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.22909881" />
       <window_info anchor="bottom" id="Statistic" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -781,7 +769,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="911">
-            <caret line="816" column="22" selection-start-line="816" selection-start-column="22" selection-end-line="816" selection-end-column="22" />
+            <caret line="818" column="33" selection-start-line="818" selection-start-column="33" selection-end-line="818" selection-end-column="33" />
           </first_editor>
           <second_editor />
         </state>
