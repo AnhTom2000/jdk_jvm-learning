@@ -691,3 +691,134 @@ Java虚拟机栈是Java方法运行时的内存模型,它由一个个**栈帧**�
     Remembered Sets : 检查 RSets，用于根据每个region里的对象，是从哪指向过来的(即:谁引用了我)，每个Region都有独立的RSets。
     
     Collection Sets ：简称 CSets，记录了等待回收的 Region 集合，GC 时这些 Region 中的对象会被回收（copied or moved）。
+    
+### JVM调优参数
+
+ #### 堆栈相关
+  
+  **-Xss?** 
+  
+    设置线程栈大小
+  
+  **-Xms?** 
+  
+    设置堆大小
+  
+  **-Xmx? / -XX:MaxHeapSize=?** 
+  
+    设置堆的最大值
+  
+  **-Xmn? / -XX:NewSize=?** 
+  
+    设置新生代大小
+  
+  **-XX:NewRatio=?**  
+  
+    设置新生代和老年代的占比置,比如-XX:NewRatio=5 老年代:新生代 = 5:1
+  
+  **-XX:SurvivorRatio=?**  
+  
+    设置eden区和survivor区的占比，比如-XX:SurvivorRatio=2
+    那么 eden:fromSurvivor:toSurvivor = 2:1:1
+    
+  **-XX:MetaspaceSize=? / -XX:PermGen=?**  
+  
+    -XX:MetaspaceSize=？：设置元空间大小，适用于jdk8及以后
+    -XX:PermGen=? : 设置永久代大小，使用与jdk8以前
+    
+  **-XX:MaxMetaspaceSize=? / -XX:MaxPermGen=?**  
+    
+    -XX:MaxMetaspaceSize=?,设置元空间最大值,适用于jdk8及以后
+    -XX:MaxPermGen=?，设置永久代最大值，使用与jdk8以前
+    
+  **-XX:+HeapDumpOnOutOfMemoryError / -XX:HeapDumpPath=?**  
+  
+    -XX:+HeapDumpOnOutOfMemoryError: 在发生OOM时，dump错误堆栈。
+    -XX:HeapDumpPath=/home/logs:在发生OOM时，将堆栈信息dump到指定目录或文件。此参数只有开启 -XX:+DumpHeapOnOutOfMemoryError 才有效
+    
+ #### GC相关
+ 
+  **-XX:+PrintGCDetails / -Xlog:GC✳**
+  
+    打印GC日志， -Xlog:GC*在jdk11版本开始推荐使用
+    
+  **-XX:+TraceClassUnloading / -Xlog:class+unload=info**  
+  
+    打印类卸载日志，Xlog:class+unload=info在jdk11版本开始推荐使用
+    
+  **-XX:+UseSerialGC**
+    
+    使用串行收集器
+    
+  **-XX:+UseParallelGC**
+  
+    使用吞吐量收集器Parallel Scavenge   
+    
+  **-XX:ParallelGCThreads=?**  
+    
+    设置并行收集器的线程数量
+    
+  **-XX:+UseConcMarkSweepGC**
+  
+    使用ParNew收集器/CMS收集器，新生代默认使用ParNew收集器，可以通过加参数 -XX:+UseSerialGC 来改变新生代的收集器为Serial
+    
+  **-XX:+UseG1GC**
+  
+    使用G1收集器，jdk9以后是默认属性，无需设置
+    
+  **-XX:MaxTenuringThreshold=?**      
+    
+    设置新生代晋升老年的最大年龄阈值
+    
+  #### 其他
+  
+  **-server / -client**
+  
+    使用服务端模式/客户端模式:
+    -client:以客户端模式运行应用，client模式适用于客户端桌面应用程序。JVM在此模式下会对客户端程序运行做很大优化。
+    
+    -server:以服务端模式运行应用，server模式适用于服务端应用程序。JVM在此模式下会对服务端的运行效率做很大优化。   
+    
+### JVM调优工具
+
+  #### jps(important)
+  
+    jps用于查看当前系统运行的java进程。
+    
+    jps -q 查看当前运行中的java进程
+    jps -v 打印当前运行中的java进行的jvm参数
+    jps -l 打印当前运行中的java进行的详细路径
+    jps -m 打印当前运行中的java进程主函数(main方法)的参数        
+    
+  #### jstat
+  
+    jstat用于查看java进程的运行状态
+    
+    jstat -class pid 用于查看java进程类的情况
+    jstat -compiler pid 用于查看java进程编译的情况
+    jstat -gc pid 用于查看java进程gc的情况
+    
+  #### jinfo
+  
+    jinfo用于查看java进程的jvm参数
+    
+    jinfo -flag MetaspaceSize pid : 查看java进程的jvm的元空间大小
+    jinfo -flag MaxHeapSize pid : 查看java进程的jvm的最大堆的大小
+    
+  #### jstack
+  
+    jstack用于分析java线程栈信息
+    
+    jstack pid
+  
+  #### jmap
+  
+    jmap既可以给java程序保存快照，也可以查看对象的统计信息
+    
+    jmap -heap pid 查看java进程堆的信息
+    jmap -histo pid 查看java进程对象的信息
+    jmap -dump:file=filename pid 生成 java进程jvm的堆快照到指定文件 
+  
+  #### jconsole(important)   
+  
+    jvm的可视化工具，结合上面所有功能

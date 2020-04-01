@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eebbd559-5f12-459e-bbb9-314a1808117f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/CMSGC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/G1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/ParNewGC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/ParallelScavenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/SerialGC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jvm_jdk-learning.md" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_jdk-learning.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/LoadClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/LoadClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/LoadClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/LoadClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/stack/StackStruTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/stack/StackStruTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/anhTom2000/stack/StackStruTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/anhTom2000/stack/StackStruTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmind_file/深入理解JVM.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/xmind_file/深入理解JVM.xmind" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,7 +64,7 @@
     <session id="-1542650978">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -61,28 +72,30 @@
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="ft" value="55" />
-          <entry key="java" value="2449" />
-          <entry key="md" value="10610" />
+          <entry key="dummy" value="2" />
+          <entry key="ft" value="94" />
+          <entry key="java" value="3209" />
+          <entry key="md" value="11945" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2449" />
-          <entry key="Markdown" value="10610" />
-          <entry key="VTL" value="55" />
+          <entry key="JAVA" value="3209" />
+          <entry key="Markdown" value="11945" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="VTL" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="14" />
+          <entry key="java" value="19" />
           <entry key="md" value="1" />
           <entry key="png" value="1" />
         </counts>
@@ -91,7 +104,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="14" />
+          <entry key="JAVA" value="19" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
@@ -107,17 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/stack/StackStruTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/HelloLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="93">
+              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -134,11 +138,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/LoadClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1302">
-              <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+            <state relative-caret-position="-124">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/G1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -147,8 +160,8 @@
         <entry file="file://$PROJECT_DIR$/jvm_jdk-learning.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="597">
-                <caret line="682" column="88" selection-start-line="682" selection-start-column="88" selection-end-line="682" selection-end-column="88" />
+              <first_editor relative-caret-position="911">
+                <caret line="816" column="22" selection-start-line="816" selection-start-column="22" selection-end-line="816" selection-end-column="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -158,8 +171,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/LoadClassTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+            <state relative-caret-position="496">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/SerialGC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="33" column="9" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="33" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/ParNewGC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/CMSGC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/ParallelScavenge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -213,9 +262,15 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/HelloLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/LoadClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/MyClassLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/stack/StackStruTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/LoadClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/LoadClassTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/SerialGC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/CMSGC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/ParNewGC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/ParallelScavenge.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/G1.java" />
         <option value="$PROJECT_DIR$/jvm_jdk-learning.md" />
       </list>
     </option>
@@ -244,8 +299,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="995" />
-    <option name="y" value="236" />
+    <option name="x" value="783" />
+    <option name="y" value="23" />
     <option name="width" value="974" />
     <option name="height" value="1100" />
   </component>
@@ -321,7 +376,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="github" type="462c0819:PsiDirectoryNode" />
               <item name="anhTom2000" type="462c0819:PsiDirectoryNode" />
-              <item name="classLoader" type="462c0819:PsiDirectoryNode" />
+              <item name="gcs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jdk_jvm-learning" type="b2602c69:ProjectViewProjectNode" />
@@ -377,22 +432,22 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="runtime&#9;PSI&#9;JAVA://java.lang.Runtime&#10;system&#9;PSI&#9;JAVA://java.lang.System" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585578078614" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585734632317" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../javaweb20200327" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15346535" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -411,13 +466,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LoadClassTest">
-    <configuration name="HelloLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.anhTom2000.classLoader.HelloLoader" />
+  <component name="RunManager" selected="Application.G1">
+    <configuration name="CMSGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.anhTom2000.gcs.CMSGC" />
       <module name="jvm_jdk-learning" />
+      <option name="VM_PARAMETERS" value="-XX:+UseConcMarkSweepGC -Xlog:GC* -XX:MaxTenuringThreshold=1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.anhTom2000.classLoader.*" />
+          <option name="PATTERN" value="com.github.anhTom2000.gcs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -425,12 +481,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoadClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.anhTom2000.classLoader.LoadClass" />
+    <configuration name="G1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.anhTom2000.gcs.G1" />
       <module name="jvm_jdk-learning" />
+      <option name="VM_PARAMETERS" value="-Xlog:GC*" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.anhTom2000.classLoader.*" />
+          <option name="PATTERN" value="com.github.anhTom2000.gcs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -438,12 +495,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoadClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.anhTom2000.classLoader.LoadClassTest" />
+    <configuration name="ParNewGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.anhTom2000.gcs.ParNewGC" />
       <module name="jvm_jdk-learning" />
+      <option name="VM_PARAMETERS" value="-XX:+UseConcMarkSweepGC -Xlog:GC*" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.anhTom2000.classLoader.*" />
+          <option name="PATTERN" value="com.github.anhTom2000.gcs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -451,12 +509,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackStruTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.anhTom2000.stack.StackStruTest" />
+    <configuration name="ParallelScavenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.anhTom2000.gcs.ParallelScavenge" />
       <module name="jvm_jdk-learning" />
+      <option name="VM_PARAMETERS" value="-Xlog:GC* -XX:+UseParallelGC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.anhTom2000.stack.*" />
+          <option name="PATTERN" value="com.github.anhTom2000.gcs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -464,12 +523,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.anhTom2000.classLoader.Test" />
+    <configuration name="SerialGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.anhTom2000.gcs.SerialGC" />
       <module name="jvm_jdk-learning" />
+      <option name="VM_PARAMETERS" value="-Xlog:gc* -XX:+UseSerialGC -XX:+PrintCommandLineFlags" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.anhTom2000.classLoader.*" />
+          <option name="PATTERN" value="com.github.anhTom2000.gcs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -478,19 +538,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StackStruTest" />
-      <item itemvalue="Application.HelloLoader" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.LoadClass" />
-      <item itemvalue="Application.LoadClassTest" />
+      <item itemvalue="Application.SerialGC" />
+      <item itemvalue="Application.ParNewGC" />
+      <item itemvalue="Application.CMSGC" />
+      <item itemvalue="Application.ParallelScavenge" />
+      <item itemvalue="Application.G1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LoadClassTest" />
-        <item itemvalue="Application.LoadClass" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.HelloLoader" />
-        <item itemvalue="Application.StackStruTest" />
+        <item itemvalue="Application.G1" />
+        <item itemvalue="Application.ParallelScavenge" />
+        <item itemvalue="Application.CMSGC" />
+        <item itemvalue="Application.ParNewGC" />
+        <item itemvalue="Application.SerialGC" />
       </list>
     </recent_temporary>
   </component>
@@ -512,12 +572,13 @@
       <workItem from="1585379887809" duration="1281000" />
       <workItem from="1585460727469" duration="13614000" />
       <workItem from="1585540906542" duration="8498000" />
-      <workItem from="1585642651273" duration="9184000" />
+      <workItem from="1585642651273" duration="9886000" />
+      <workItem from="1585724719046" duration="7869000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61043000" />
+    <option name="totallyTimeSpent" value="69614000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -532,7 +593,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14552239" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20522387" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -541,13 +602,13 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.044516828" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5005429" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32899022" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3257329" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32894737" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" visible="true" weight="0.22909881" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.23995657" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.22909881" />
       <window_info anchor="bottom" id="Statistic" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -617,44 +678,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/1c91169ff735b21daa16d650700d3dcb.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/stack/StackStruTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/HelloLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/LoadClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1302">
-          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/LoadClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -678,14 +711,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/1c91169ff735b21daa16d650700d3dcb.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/stack/StackStruTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/LoadClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/CMSGC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/ParNewGC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/classLoader/LoadClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/SerialGC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/G1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/anhTom2000/gcs/ParallelScavenge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jvm_jdk-learning.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="597">
-            <caret line="682" column="88" selection-start-line="682" selection-start-column="88" selection-end-line="682" selection-end-column="88" />
+          <first_editor relative-caret-position="911">
+            <caret line="816" column="22" selection-start-line="816" selection-start-column="22" selection-end-line="816" selection-end-column="22" />
           </first_editor>
           <second_editor />
         </state>
@@ -732,7 +828,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
